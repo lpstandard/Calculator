@@ -11,11 +11,12 @@
 <body>
   <div>
     <form class="calculator">
-      <input style="font-weight:bold" type="text" id="disp" name="disp" placeholder="Display" disabled>
-      <input type="text" id="cache2" name="cache2" style="display:none">
-      <input style="font-weight:bold" type="text" id="total" name="total" placeholder="Result" disabled></output><br />
+      <input type="text" id="disp" placeholder="Calculation" disabled>
+      <input type="text" id="cache2" style="display:none">
+      <input type="text" id="total" placeholder="Result" disabled></output><br />
 
-      <textarea rows="4" cols="50" id="mem" style="display:none" disabled></textarea><br />
+      <textarea rows="4" cols="50" id="mem" placeholder="Memory" style="display:none" disabled></textarea><br />
+
       <input type="button" value="C" onclick="refresh()">
       <input type="button" value="**" onclick="compute(this.value)">
       <input type="button" value="sq" onclick="squareRoot()">
