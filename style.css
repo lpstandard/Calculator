@@ -1,0 +1,64 @@
+html{
+  background:url('./jGlzr.png') repeat 0 0 scroll;
+  background-color:#0C0C0C;
+  background-size:100% 100%;
+  height:100%;
+  width:100%
+}
+
+.calculator{
+  position:relative;
+  background-color:#808080;  
+  margin:auto;
+  width:40%;
+  padding:15px;
+  border-radius:5px;
+  border:2px solid #000000;
+  box-shadow:8px 8px #000000;
+}
+
+input[type=text]{
+  font-size:1em;
+  position:relative;
+  margin:auto;
+  width:13em;
+  padding:15px;
+  border-radius:5px;
+  border:1px solid #000000
+}
+
+input[type=button]{
+  color:white;
+  margin-bottom:20px;
+  width:3em;
+  padding:15px;
+  border-radius:5px;
+  border:3px solid #000;
+  background-color:#000000;
+  font-size:40px
+}
+ 
+input[type=text]:focus,textarea:focus{
+  border:3px solid #000
+}
+
+input[type=button]:hover{ 
+  background-color:#737373
+}
+
+input#mc{ 
+  position: relative;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto
+}
+
+textarea#mem{
+  font-size:1em;
+  width:20em;
+  height:3em;
+  position:relative;
+  margin-top:0.5em;
+  margin-left:auto;
+  margin-right:auto;
+}

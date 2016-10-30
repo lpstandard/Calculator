@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <script src="jquery.js"></script>
+  <script type="text/javascript" src="./script.js"></script>     
+  <script type="text/javascript" src="./reload.js"></script>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <div>
+    <form class="calculator">
+      <input style="font-weight:bold" type="text" id="disp" name="disp" placeholder="Display" disabled>
+      <input type="text" id="cache2" name="cache2" style="display:none">
+      <input style="font-weight:bold" type="text" id="total" name="total" placeholder="Result" disabled></output><br />
+
+      <textarea rows="4" cols="50" id="mem" style="display:none" disabled></textarea><br />
+      <input type="button" value="C" onclick="refresh()">
+      <input type="button" value="**" onclick="compute(this.value)">
+      <input type="button" value="sq" onclick="squareRoot()">
+      <input type="button" value="M" onclick="memory()"><br />
+
+      <input type="button" value="1" onclick="compute(this.value)">
+      <input type="button" value="2" onclick="compute(this.value)">
+      <input type="button" value="3" onclick="compute(this.value)">
+      <input type="button" value="+" onclick="compute(this.value)"><br />
+
+      <input type="button" value="4" onclick="compute(this.value)">
+      <input type="button" value="5" onclick="compute(this.value)">
+      <input type="button" value="6" onclick="compute(this.value)">
+      <input type="button" value="-" onclick="compute(this.value)"><br />
+      
+      <input type="button" value="7" onclick="compute(this.value)">
+      <input type="button" value="8" onclick="compute(this.value)">
+      <input type="button" value="9" onclick="compute(this.value)">
+      <input type="button" value="*" onclick="compute(this.value)"><br />
+
+      <input type="button" value="." onclick="compute(this.value)">      
+      <input type="button" value="0" onclick="compute(this.value)">
+      <input type="button" value="=" onclick="equal()">
+      <input type="button" value="/" onclick="compute(this.value)"><br />
+
+      <input type="button" id="mc" value="MC" onclick="reset()">
+    </form>
+  </div>
+</body>
+</html>
