@@ -1,4 +1,4 @@
-DEMO https://lpstandard.github.io/JavaScript_Calculator/
+DEMO https://lpstandard.github.io/Calculator/
 
 1. A web page calculator with +, -, *, /, exponentiation, and square root function. 
 2. This calculator can also store ten results without losing data by refreshing page.  
